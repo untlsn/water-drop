@@ -4,6 +4,7 @@ import css from 'unocss/vite';
 import { join as pathJoin } from 'path';
 import autoImport from 'unplugin-auto-import/vite';
 import Inspect from 'vite-plugin-inspect';
+import { VitePWA } from 'vite-plugin-pwa';
 
 export default {
   server: {
@@ -19,6 +20,7 @@ export default {
   plugins: [
     react(),
     css(),
+    VitePWA({ registerType: 'autoUpdate' }),
     autoImport({
       dts: 'src/auto-imports.d.ts',
       imports: [

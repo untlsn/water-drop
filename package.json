@@ -58,14 +58,17 @@
     "mobx-react-lite": "^3.4.0",
     "mobx-state-tree": "^5.1.5",
     "react": "^18.2.0",
+    "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-head": "^3.4.0",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-use": "^17.4.0",
+    "sass": "^1.54.4",
     "unocss": "^0.44.3",
     "unplugin-auto-import": "^0.9.3",
     "vite": "^3.0.1",
-    "vite-plugin-inspect": "^0.6.0"
+    "vite-plugin-inspect": "^0.6.0",
+    "vite-plugin-pwa": "^0.12.3"
   }
 }
